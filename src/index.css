@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+#root {
+  width: 100%;
+  min-width: 360px;
+  max-width: 768px;
+  padding: 0 30px;
+}
+
+html {
+  background-color: rgb(166, 165, 165);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+a {
+  display: block;
+  text-transform: capitalize;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.app-list {
+  a {
+    padding: 4px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    background-color: lightgray;
+  }
+}
+
+.app-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.app-list,
+.app-photos {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+@media screen and (width < 500px) {
+  .app-photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
